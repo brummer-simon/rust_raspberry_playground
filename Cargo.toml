@@ -7,3 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+blink_dbus_server = { git = "https://github.com/brummer-simon/blink_dbus_server.git", branch = "master" }
+rust_raspi_led_strip = { git = "https://github.com/ziemann-sebastian/rust-raspi-led-strip.git", branch = "main" }
